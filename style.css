@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Josefin+Sans&family=Lora:wght@500&family=Open+Sans:wght@300&family=Roboto:wght@100&family=Ubuntu:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+   
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.logo img {
+    width: 33%;
+    /* border: 2px solid grey; */
+    /* border-radius: 35px; */
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    width: 70%;
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: serif;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: rgb(178, 178, 178);
+}
+
+.rightnav {
+    /* background-color: gray; */
+    width: 30%;
+    padding: 0 23px;
+    text-align: right;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('img/bg3.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection {
+    height: 120vh;
+}
+
+.boxmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    height: 80%;
+    margin: auto;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.firsthalf {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondhalf {
+    width: 30%;
+}
+
+.secondhalf img {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.textbig {
+    font-size: 41px;
+}
+
+.textsmall {
+    font-size: 18px;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 5px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    background: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section {
+    /* height: 450px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-height: 80%;
+    margin: auto;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sectionTag {
+    padding: 16px 0;
+}
+
+.sectionSubTag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left {
+
+    flex-direction: row-reverse;
+}
+
+.paras {
+    padding: 0 65px;
+    overflow: hidden;
+}
+
+.imgFluid {
+    background: white;
+    height: 403px;
+    width: 610px;
+    padding: 19px 79px;
+}
+
+.imgFluid3 {
+    /* background: white; */
+    /* height: 375px;
+    width: 475px;
+    padding: 10px 150px; */
+    height: 450px;
+    width: 610px;
+    padding: 35px 96px;
+}
+
+.imgFluid2 {
+    height: 410px;
+    width: 700px;
+}
+
+.contact {
+    background-color: gray;
+    height: 670px;
+}
+
+.text-center {
+    text-align: center;
+    padding: 30px;
+    background-color: wheat;
+    font-family: math;
+    font-size: 35px;
+
+}
+
+.form {
+    max-width: 500px;
+    margin: 75px auto;
+}
+
+.form-input {
+    width: 100%;
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    font-size: 19px;
+    border: 2px solid #cfc7cf;
+    border-radius: 5px;
+    font-family: fantasy;
+}
+
+.submit {
+    margin: 7px 43%;
+    padding: 8px 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    background: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: monospace;
+}
+
+.submit:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(18, 255, 18);
+}
+
+.text-footer {
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(0, 0, 0);
+    font-family: math;
+    color: white;
+}
+
+.burger {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 3%;
+    top: 23px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 6px 3px;
+}
+.fit{
+    width: fit-content;
+}
+
+/* @media only screen and (max-width: 1140px){ */
+@media only screen and (max-width: 1163px) {
+    .body{
+        width: fit-content;
+    }
+    .firstsection {
+        height: 150vh;
+        width: fit-content;
+            /* height: 53vh; */
+            
+        }
+    
+    .nav-list {
+        flex-direction: column;
+    }
+    .secondhalf img{
+        width: 75%;
+
+    }
+
+    .navbar {
+        height: 447px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+
+    .logo img {
+        position: absolute;
+        left: 10px;
+        top: 4%;
+        width: 7%;
+    }
+
+    .boxmain {
+        flex-direction: column-reverse;
+        max-width: 100%;
+        height: 99%;
+    }
+
+    .rightnav {
+        text-align: center;
+    }
+
+    #search {
+        width: 100%;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav-resp {
+        height: 0px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+    .section{
+        display: contents;
+    }
+    
+    .textbig{
+        margin: 25px 34px;
+    }
+    .textsmall{
+        margin-left: 42px;
+    }
+    .buttons{
+        margin-left: 39px;
+    }
+
+}
+
+  /* responsiveness media query */
+  @media only screen and (max-width: 802px){
+    .body{
+     width: fit-content;
+    }
+    .firstsection {
+        height: 150vh;
+        width: fit-content;
+    }
+    .imgFluid {
+    height: 403px;
+    width: 610px;
+    padding: 19px 79px;
+    }
+    .imgFluid2 {
+    height: 410px;
+    width: 700px;
+    }
+    .imgFluid3{
+    height: 450px;
+    width: 610px;
+    padding: 35px 96px;
+    }
+    .textbig{
+        margin: 42px 34px;
+    }
+  }
+
+/* Animation fadeInUp */
+.fadeInUp{animation:fadeInUp 2s ease backwards;}
+.textsmall{
+    font-size: 25px;
+}
+@keyframes fadeInUp{
+    0%{transform:translate(0px, 100px); opacity: 0;}
+    100%{transform:translate(0px, 0); opacity: 1;}
+  }
+
+
